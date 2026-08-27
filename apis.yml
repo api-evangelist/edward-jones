@@ -1,4 +1,5 @@
 aid: edward-jones
+name: "Edward Jones"
 specificationVersion: '0.23'
 accessModel:
   pricing: unknown
