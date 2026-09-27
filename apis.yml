@@ -38,3 +38,10 @@ common:
 description: >-
   Edward Jones is a financial services firm dedicated to serving the needs of individual
   investors through a network of branch offices across the United States and Canada.
+x-lifecycle:
+  state: shuttered
+  reason: domain-does-not-resolve
+  observed: '2026-09-27'
+  detail: >-
+    The company's own domain returned no A or AAAA record when probed. This is an observation about the domain, not a request from the company.
+  indexed: false
